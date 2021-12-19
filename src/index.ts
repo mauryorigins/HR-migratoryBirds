@@ -1,12 +1,12 @@
 /* eslint-disable no-return-assign */
 
-// Source: https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
-import gradingStudents from './gradingStudents';
+// Source: https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
+import migratoryBirds from './migratoryBirds';
 
 function main() {
   console.log('---------- Cool Programing ----------\n');
-  const testArray = [73, 67, 38, 33];
-  const result = gradingStudents(testArray);
+  const testArray = [1, 4, 4, 4, 5, 3];
+  const result = migratoryBirds(testArray);
   console.log('Result: ', result);
 }
 
